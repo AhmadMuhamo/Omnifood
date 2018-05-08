@@ -115,6 +115,7 @@ h2:after {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -193,4 +194,58 @@ header {
 .btn-ghost:active {
     color: #fff;
     border-color: #cf6d17;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* FEATURES */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.section-features h3 {
+    color:black;
+}
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* MEALS */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-showcase figure {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meals-showcase figure img {
+    opacity: 0.7;
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meals-showcase figure img:hover {
+    transform: scale(1.03);
+    opacity: 1;
 }
