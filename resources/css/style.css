@@ -314,3 +314,45 @@ header {
     height: 50px;
     margin-right: 10px;
 }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* CITIES */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.section-cities img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.city-feature a, .city-feature a:visited {
+    color: #e76e22;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.city-feature a:hover, .city-feature a:active {
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #e76e22;    
+}
+
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e76e22;
+    font-size: 120%;
+    margin-right: 5px;
+    /* align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
