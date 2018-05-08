@@ -18,6 +18,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* ---------------------------------------------------------------------------------------------------------- */
 
 /* REUSABLE COMPONENTS */
@@ -86,6 +98,7 @@ h2:after {
 }
 
 /* ICONS */
+
 .icon-big {
     font-size: 500%;
     display: block;
@@ -201,14 +214,14 @@ header {
 /* FEATURES */
 
 /* ---------------------------------------------------------------------------------------------------------- */
+
 .section-features h3 {
-    color:black;
+    color: black;
 }
 
 .section-features .long-copy {
     margin-bottom: 30px;
 }
-
 
 /* ---------------------------------------------------------------------------------------------------------- */
 
@@ -248,4 +261,56 @@ header {
 .meals-showcase figure img:hover {
     transform: scale(1.03);
     opacity: 1;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* HOW IT WORKS */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.step-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.step-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e76e22;
+    border: 2px solid #e76e22;
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding: 7px;
+    float: left;
+    font-size: 150%;
+    margin-right: 5%;
+}
+
+.btn-app img {
+    height: 50px;
+    margin-right: 10px;
 }
