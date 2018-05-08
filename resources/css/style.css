@@ -356,3 +356,48 @@ header {
     vertical-align: middle;
     margin-top: -4px;
 }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* CUSTOMERS */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+.section-customers {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    font-size: 95%;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 450%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -20px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    text-align: right;
+    position: relative;    
+}
+
+cite img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
