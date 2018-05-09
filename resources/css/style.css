@@ -171,7 +171,8 @@ header {
 /* BUTTONS */
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -182,7 +183,8 @@ header {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     color: #fff;
     background-color: #e76e22;
     margin-right: 10px;
@@ -194,7 +196,10 @@ header {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    cursor: pointer;
     background-color: #cf6d17;
 }
 
@@ -320,6 +325,7 @@ header {
 /* CITIES */
 
 /* ---------------------------------------------------------------------------------------------------------- */
+
 .section-cities img {
     width: 100%;
     margin-bottom: 15px;
@@ -329,7 +335,8 @@ header {
     margin-bottom: 5px;
 }
 
-.city-feature a, .city-feature a:visited {
+.city-feature a,
+.city-feature a:visited {
     color: #e76e22;
     text-decoration: none;
     padding-bottom: 2px;
@@ -337,12 +344,12 @@ header {
     transition: border-bottom 0.2s;
 }
 
-.city-feature a:hover, .city-feature a:active {
+.city-feature a:hover,
+.city-feature a:active {
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 1px solid #e76e22;    
+    border-bottom: 1px solid #e76e22;
 }
-
 
 .icon-small {
     display: inline-block;
@@ -362,6 +369,7 @@ header {
 /* CUSTOMERS */
 
 /* ---------------------------------------------------------------------------------------------------------- */
+
 .section-customers {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
     background-attachment: fixed;
@@ -392,7 +400,7 @@ cite {
     margin-top: 25px;
     display: block;
     text-align: right;
-    position: relative;    
+    position: relative;
 }
 
 cite img {
@@ -407,6 +415,7 @@ cite img {
 /* CUSTOMERS */
 
 /* ---------------------------------------------------------------------------------------------------------- */
+
 .section-plans {
     background-color: #f4f4f4;
 }
@@ -434,7 +443,7 @@ cite img {
 
 .plan-box div:first-child {
     background-color: #fcfcfc;
-    text-align: center;    
+    text-align: center;
 }
 
 .plan-price {
@@ -448,10 +457,45 @@ cite img {
     font-weight: 300;
     color: #e76e22;
 }
+
 .plan-price-meal {
     font-size: 80%;
 }
 
 .signup {
     text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* SIGNUP */
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+*:focus {outline-color: #e76e22;}
+
+.contact-form div:last-child div:last-child {
+    text-align: right;
 }
