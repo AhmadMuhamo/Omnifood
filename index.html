@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -19,18 +20,19 @@
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
                 <ul class="main-nav">
                     <li>
-                        <a href="#">Food delivery</a>
+                        <a href="#features">Food delivery</a>
                     </li>
                     <li>
-                        <a href="#">How it works</a>
+                        <a href="#steps">How it works</a>
                     </li>
                     <li>
-                        <a href="#">Our cities</a>
+                        <a href="#cities">Our cities</a>
                     </li>
                     <li>
-                        <a href="#">Sign up</a>
+                        <a href="#signup">Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -38,11 +40,11 @@
         <div class="hero-text-box">
             <h1> Goodbye junk food.
                 <br>Hello super healthy meals.</h1>
-            <a class="btn btn-full" href="#">I'm hungry</a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
+            <a class="btn btn-full" href="#plans">I'm hungry</a>
+            <a class="btn btn-ghost" href="#features">Show me more</a>
         </div>
     </header>
-    <section class="section-features">
+    <section class="section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food</h2>
             <p class="long-copy">
@@ -50,7 +52,7 @@
                 take care of that, we’re really good at it, we promise!
             </p>
         </div>
-        <div class="row">
+        <div class="row features-animate">
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i>
                 <h3>Up to 365 days/year</h3>
@@ -81,7 +83,7 @@
             </div>
         </div>
     </section>
-    <section class="section-meals">
+    <section class="section-meals" id="meals">
         <ul class="meals-showcase clearfix">
             <li>
                 <figure>
@@ -127,15 +129,15 @@
             </li>
         </ul>
     </section>
-    <section class="section-steps">
+    <section class="section-steps" id="steps">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
         </div>
-        <div class="row">
+        <div class="row steps-animate">
             <div class="col span-1-of-2 step-box">
                 <img src="resources/img/app-iPhone.png" alt="Omnifood for iOS" class="app-screen">
             </div>
-            <div class="col span-1-of-2 step-box">
+            <div class="col span-1-of-2 step-box steps">
                 <div class="works-step">
                     <div>1</div>
                     <p>Choose the subscription plan that best fits your needs and sign up today.</p>
@@ -159,11 +161,11 @@
             </div>
         </div>
     </section>
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
-        <div class="row">
+        <div class="row cities-animate">
             <div class="col span-1-of-4 box">
                 <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
                 <h3>Lisbon</h3>
@@ -230,7 +232,7 @@
             </div>
         </div>
     </section>
-    <section class="section-customers">
+    <section class="section-customers" id="customers">
         <div class="row">
             <h2>Our customers can't live without us</h2>
         </div>
@@ -264,13 +266,13 @@
             </div>
         </div>
     </section>
-    <section class="section-plans">
+    <section class="section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box plan-box-animate">
                     <div class="price">
                         <h3>Premium</h3>
                         <p class="plan-price">399$
@@ -372,7 +374,7 @@
             </div>
         </div>
     </section>
-    <section class="section-signup">
+    <section class="section-signup" id="signup">
         <div class="row">
             <h2>We're happy to hear from you</h2>
         </div>
@@ -485,10 +487,13 @@
             </p>
         </div>
     </footer>
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 </body>
 
 </html>
