@@ -74,12 +74,37 @@
         width: 100%;
         margin: 0 0 4% 0;
     }
+    .nav-collapse {
+        display: block;
+    }
     .main-nav {
+        display: none;
+        float: left;
         margin-top: 20px;
+        margin-left: 50px;
     }
     .main-nav li {
         display: block;
         margin: 10px 5px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+        padding: 10px 0;
+    }
+    .sticky-nav .main-nav {
+        margin-top: 10px;
+    }
+    .sticky-nav .main-nav li a:link,
+    .sticky-nav .main-nav li a:visited {
+        padding: 10px 0;
+    }
+    .sticky-nav .nav-collapse i {
+        color: #555;
+    }
+    .sticky-nav .nav-collapse {
+        margin-top: 10px;
     }
     .long-copy {
         width: 100%;

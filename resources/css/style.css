@@ -209,6 +209,19 @@ header {
     padding: 20px 0;
 }
 
+/* Mobile Navigation */
+.nav-collapse {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-collapse i {
+    font-size: 200%;
+    color: #fff;
+}
+
 /* BUTTONS */
 
 .btn:link,
