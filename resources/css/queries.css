@@ -1,0 +1,179 @@
+/*
+ * Larger Devices - from Medium to 1200px
+ */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/*
+ * Medium Devices (Tablets in Landscape) - from 768 to 1023px
+ */
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 60px 0;
+    }
+    .btn-app img {
+        margin-right: 5px;
+    }
+    .app-screen {
+        width: 50%;
+    }
+    .city-feature {
+        font-size: 90%;
+    }
+    .icon-small {
+        width: 10px;
+        font-size: 110%;
+        margin-right: 4px;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .plan-price {
+        font-size: 200%;
+    }
+    .details {
+        font-size: 90%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+}
+
+/*
+ * Medium Devices (Tablets in Portrait) - from 481 to 767px
+ */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .row,
+    .hero-text-box {
+        padding: 0 4%;
+    }
+    .hero-text-box {
+        font-size: 80%;
+    }
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav {
+        margin-top: 20px;
+    }
+    .main-nav li {
+        display: block;
+        margin: 10px 5px;
+    }
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    h2 {
+        font-size: 110%;
+    }
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    .section-cities .row:last-child {
+        text-align: center;
+    }
+    .section-customers .row:last-child {
+        width: 80%;
+    }
+    blockquote:before {
+        font-size: 300%;
+    }
+    .section-features .box {
+        margin-bottom: 30px;
+    }
+    .section-features .box h3 {
+        text-align: center;
+    }
+    .meals-showcase li {
+        float: none;
+        width: 100%;
+    }
+    .step-box:first-child {
+        text-align: center;
+        padding-right: 0;
+        margin-top: 30px;
+    }
+    .app-screen: {
+        width: 40%;
+    }
+    .works-step {
+        margin-bottom: 20px;
+    }
+    .works-step:last-of-type {
+        margin-bottom: 40px;
+    }
+    .steps-btns {
+        text-align: center;
+    }
+    .plan-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+    footer .col {
+        width: 50%;
+    }
+    .footer-nav li {
+        display: block;
+    }
+    .social-links {
+        font-size: 150%;
+    }
+}
+
+/*
+ * Small Devices (Mobile Phones)
+ */
+
+@media only screen and (max-width: 480px) {
+    .btn-app img {
+        margin-right: 2px;
+        height: 40px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    footer .col {
+        width: 50%;
+    }
+    .footer-nav li {
+        display: block;
+    }
+    .social-links {
+        font-size: 110%;
+    }
+    .logo {
+        height: 100px;
+    }
+    .hero-text-box {
+        font-size: 70%;
+    }
+}
