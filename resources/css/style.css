@@ -139,7 +139,8 @@ header {
     height: 100vh;
 }
 
-.logo, .logo-black {
+.logo,
+.logo-black {
     height: 150px;
     width: auto;
     float: left;
@@ -179,6 +180,7 @@ header {
 }
 
 /* Sticky navigation */
+
 .sticky-nav {
     position: fixed;
     top: 0;
@@ -210,6 +212,7 @@ header {
 }
 
 /* Mobile Navigation */
+
 .nav-collapse {
     float: right;
     margin-top: 30px;
@@ -634,10 +637,17 @@ footer p {
 /* ANIMATIONS */
 
 /* ---------------------------------------------------------------------------------------------------------- */
-.features-animate, .app-screen, .steps, .cities-animate {
+
+.features-animate,
+.app-screen,
+.steps,
+.cities-animate {
     opacity: 0;
 }
 
-.features-animate.animated, .app-screen.animated, .steps.animated, .cities-animate.animated {
+.features-animate.animated,
+.app-screen.animated,
+.steps.animated,
+.cities-animate.animated {
     opacity: 1;
 }
